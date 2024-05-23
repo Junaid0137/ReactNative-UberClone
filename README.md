@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Uber Clone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Table of Contents
 
-## Get started
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
 
-1. Install dependencies
+## Overview
 
-   ```bash
-   npm install
-   ```
+Uber Clone is a ride-hailing app built with React Native. It replicates the core functionalities of the Uber app, including real-time navigation, distance and travel time calculation, and location search. This project uses various Google APIs to deliver a seamless and efficient user experience.
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+- **Real-Time Navigation:** Uses Google Directions API for real-time navigation and route updates.
+- **Distance and Time Calculation:** Uses Google Distance Matrix API to calculate the distance and estimated travel time between locations.
+- **Location Search:** Uses Google Places API to search for source and destination locations.
+- **Navigation Between Screens:** Implemented using React Native Navigation.
+- **Enhanced UI:** Uses React Native Elements for a polished and professional app design.
+- **State Management:** Implemented using Redux for efficient state management.
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native:** Framework for building native apps using React.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **JavaScript:** Programming language used for app logic.
+- **Google Distance Matrix API:** Calculates distance and travel time between locations.
+- **Google Directions API:** Provides real-time navigation and route updates.
+- **Google Places API:** Allows searching for source and destination locations.
+- **React Native Navigation:** Handles navigation between screens.
+- **React Native Elements:** Provides ready-to-use components for enhancing app design.
+- **Redux:** State management library for managing app state.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+- **Set Location:** Use the search bar to find and set your source and destination locations using the Google Places API.
+- **Real-Time Navigation:** Get real-time navigation instructions and updates using the Google Directions API.
+- **Distance and Time Calculation:** View the calculated distance and estimated travel time between your source and destination using the Google Distance Matrix API.
+- **Navigate Between Screens:** Use the app’s intuitive navigation to switch between different screens and functionalities.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
